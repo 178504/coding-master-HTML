@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>フォームの基本を身に付ける</title>
+</head>
+<body>
+  <form action="program.php" method="post">
+  <h2>input要素をマークアップする</h2>
+  <dl>
+    <dt>名前</dt>
+    <dd>
+      <input type="text" name="name">
+    </dd>
+      <dt>性別</dt>
+      <dd>
+        <input type="radio" name="gender" value="男" checked>男
+        <input type="radio" name="gender" value="女">女
+      </dd>
+      <dt>プロフィール画像</dt>
+      <dd><input type="file" name="profile-image"></dd>
+  </dl>
+  <h2>入力形式に合わせたフォームパーツを作る</h2>
+  <h3>メニューを作成する</h3>
+  <select name="game">
+    <option value="ポケモン" selected>ポケモン</option>
+    <option value="テイルズ">テイルズ</option>
+    <option value="カービィ">カービィ</option>
+  </select>
+  <h2>プルダウンメニューを作る</h2>
+  <select name="blood-type">
+    <option value="A">A型</option>
+    <option value="B">B型</option>
+    <option value="O">O型</option>
+    <option value="AB">AB型</option>
+  </select>
+  <h2>textare要素で複数行の文字データ</h2>
+  <textarea name="名前"></textarea>
+  <textarea name="comment" rows="4" required></textarea> 
+  <h2>ボタンを作成をする</h2>
+  <button type="reset" name="リセット">リセット</button>
+  <button type="submit" name="送信">送信する</button>
+  <button type="button" name="ボタン">ボタン</button>
+  <textarea name="comment" rows="4" required></textarea> 
+  <button type="submit" name="送信">送信する</button>
+</form>
+<h2>label要素を使って入力しやすいフォームを作る</h2>
+<form action="program.php" method="post">
+  <label>お名前<input type="text" name="name"></label>
+  <dl>
+    <dt><label for="name">お名前</label></dt>
+    <dd><input type="text" id="name"></dd>
+  </dl>
+</form>
+</body>
+</html>

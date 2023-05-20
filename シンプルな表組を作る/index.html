@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>シンプルな表組みを作る</title>
+</head>
+<body>
+  <h1>左側が見出しのセル</h1>
+  <table border="1">
+    <tr>
+      <th>見出しのセル</th>
+      <td>通常のセル</td>
+    </tr>
+    <tr>
+      <th>見出しのセル</th>
+      <td>通常のセル</td>
+    </tr>
+  </table>
+  <h1>1行目が見出しのセル</h1>
+  <table border="1">
+    <tr>
+      <th>見出しのセル</th>
+      <th>見出しのセル</th>
+    </tr>
+    <tr>
+      <td>通常のセル</td>
+      <td>通常のセル</td>
+    </tr>
+  </table>
+  <h1>セルの結合</h1>
+  <h2>水平方向にセルを移動させる</h2>
+  <table border="1">
+    <tr>
+      <th>見出しのセル</th>
+      <th>見出しのセル</th>
+      <th>見出しのセル</th>
+    </tr>
+    <tr>
+      <td>通常のセル</td>
+      <td colspan="2">通常のセル</td>
+    </tr>
+  </table>
+  <h2>垂直方向にセルを移動させる</h2>
+  <table border="1">
+    <tr>
+      <th>見出しのセル</th>
+      <td>通常のセル</td>
+      <td rowspan="2">見出しのセル</td>
+    </tr>
+    <tr>
+      <th>見出しのセル</th>
+      <td>通常のセル</td>
+    </tr>
+  </table>
+  <h1>より高度な表組みを作る</h1>
+  <table border="1">
+    <caption>月会費プラン料金表</caption>
+    <thead>
+      <tr>
+        <th>項目</th>
+        <th>ライトプラン</th>
+        <th>スタンダードプラン</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th>入会費</th>
+        <td>15,000円</td>
+        <td>0円</td>
+      </tr>
+      <tr>
+        <th>月会費</th>
+        <td>1,980円</td>
+        <td>2.980円</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>初年度合計</th>
+        <td>38,760円</td>
+        <td>35,760円</td>
+      </tr>
+    </tfoot>
+  </table>
+  <h1>はがき</h1>
+  <table border="1">
+    <tr>
+      <th>通常はがき</th>
+      <td>62円</td>
+    </tr>
+    <tr>
+      <th>往復はがき</th>
+      <td>124円</td>
+    </tr>
+  </table>
+  <h1>製品詳細</h1>
+  <table border="1">
+    <tr>
+      <th>カラー</th>
+      <td>ブラック</td>
+      <td>シルバー</td>
+    </tr>
+    <tr>
+      <th>素材</th>
+      <td colspan="2">アルミニウム</td>
+    </tr>
+    <tr>
+      <th>ホイールサイズ</th>
+      <td colspan="2">20インチ</td>
+    </tr>
+  </table>
+  <h1>サイズ表</h1>
+  <table border="1">
+    <tr>
+      <th></th>
+      <th>身長</th>
+    </tr>
+    <tr>
+      <th>S</th>
+      <td rowspan="2">153～160cm</td>
+    </tr>
+    <tr>
+      <th>Ｍ</th>
+    </tr>
+    <tr>
+      <th>L</th>
+      <td rowspan="3">159～166cm</td>
+      <tr>
+        <th>XL</th>
+      </tr>
+      <tr><th>XXL</th></tr>
+    </tr>
+  </table>
+</body>
+</html>
