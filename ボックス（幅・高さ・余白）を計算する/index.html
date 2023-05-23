@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ボックスサイズ計算</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <h1>余白を配置するために必要なスペース</h1>
+  <p>ボックスモデルはHTMLで定義された要素はすべて長方形のボックスの中に納められているという考え方です。
+    ボックスサイズはcontentの幅と高さ+padding+border+marginの合計で算出されます。
+    box-sizingプロパティの初期値はcontent-boxです。<br>
+    content-boxはwidth+padding+border+margin<br>
+    border-boxはwidth+marginで算出
+  </p>
+  <div class="content">content-box</div>
+  <div class="border">border-box</div>
+  <h1>飛び出した子要素を親要素に納める</h1>
+  <div class="parent">親要素
+    <div class="child">子要素</div>
+  </div>
+</body>
+</html>
