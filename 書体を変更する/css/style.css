@@ -1,0 +1,18 @@
+p{
+  font-family: serif;
+  color: #f00;
+}
+h1{
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #00f;
+  padding: 20px;
+  border: 1px solid #777;
+}
+h2{
+  border-bottom: 1px solid #000;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  border-left: 4px solid #777;
+  background-image: url(../images/star.png);
+  background-repeat: no-repeat;
+}
