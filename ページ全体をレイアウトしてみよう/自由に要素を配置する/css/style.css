@@ -1,0 +1,29 @@
+.parent{
+  background-color: #deffd8;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  top: 50px;
+  left: 50px;
+}
+.child{
+  background-color: #ffded8;
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+}
+
+.item1{
+  width: 100px;
+  height: 100px;
+  background-color: #f00;
+  padding: 20px;
+  position: absolute;
+}
+.item{
+  width: 150px;
+  height: 150px;
+  background-color: #00f;
+  padding: 20px;
+}

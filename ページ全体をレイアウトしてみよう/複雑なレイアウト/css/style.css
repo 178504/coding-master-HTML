@@ -1,0 +1,9 @@
+div{
+  width: 600px;
+  position: relative;
+}
+.btn{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
