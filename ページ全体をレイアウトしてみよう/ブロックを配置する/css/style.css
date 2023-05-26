@@ -1,0 +1,29 @@
+header{
+  width: 970px;
+  height: 100px;
+  background-color: #0f0;
+  padding: 10px;
+}
+.container{
+  width: 990px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+main{
+  width: 600px;
+  height: 100px;
+  background-color: #f80;
+  padding: 10px;
+}
+aside{
+  width: 350px;
+  height: 100px;
+  background-color: #0ff;
+  padding: 10px;
+}
+footer{
+  width: 970px;
+  height: 100px;
+  background-color: #f0f;
+  padding: 10px;
+}

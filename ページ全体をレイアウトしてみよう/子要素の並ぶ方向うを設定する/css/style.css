@@ -1,0 +1,11 @@
+.container{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.item{
+  background-color: #ccc;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+
+}
