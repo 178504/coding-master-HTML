@@ -1,0 +1,9 @@
+.global_nav a{
+  color: #000;
+}
+.global_nav a:visited{
+  color: #ccc;
+}
+.global_nav a:hover{
+  color: #f00;
+}

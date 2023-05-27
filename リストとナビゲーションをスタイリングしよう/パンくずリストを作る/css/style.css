@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.list ol{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.list ol li::after{
+  content: ">";
+  margin: 0 10px;
+}
+.list ol li:last-child::after{
+  content: none;
+}
